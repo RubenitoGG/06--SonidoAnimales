@@ -12,6 +12,8 @@ export class HomePage {
 
   animales : Animal [] = [];
 
+  ordenando:boolean = false;
+
   constructor(public navCtrl: NavController) {
     this.animales = ANIMALES.slice(0);
   }
